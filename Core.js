@@ -3392,8 +3392,8 @@ case 'شغل': case 'play': case 'song': case 'تشغيل': {
  let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
  let ytvc = await hx.youtube(anu.url)
  let buttons = [
- {buttonId: `.ytvd ${ytvc.link}`, buttonText: {displayText: '►فيديو'}, type: 1},
- {buttonId: `.ytad ${ytvc.mp3}`, buttonText: {displayText: '♫صوتي'}, type: 1}
+ {buttonId: `.ytmp4 ${ytvc.link}`, buttonText: {displayText: '►فيديو'}, type: 1},
+ {buttonId: `.ytmp3 ${ytvc.mp3}`, buttonText: {displayText: '♫صوتي'}, type: 1}
  ]
  let buttonMessage = {
  image: { url: anu.thumbnail },
@@ -3434,8 +3434,8 @@ case 'شغل': case 'play': case 'song': case 'تشغيل': {
 *الجوده :* ${res.quality}
 *حدد الفيديو أو الصوت وانتظر بعض الوقت*`
  let buttons = [
- {buttonId: `.ytvd ${res.link}`, buttonText: {displayText: '►فيديو'}, type: 1},
- {buttonId: `.ytad ${res.mp3}`, buttonText: {displayText: '♫صوتي'}, type: 1}
+ {buttonId: `.ytmp4 ${res.link}`, buttonText: {displayText: '►فيديو'}, type: 1},
+ {buttonId: `.ytmp3 ${res.mp3}`, buttonText: {displayText: '♫صوتي'}, type: 1}
  ]
  let buttonMessage = {
  image: {url:res.thumb},
@@ -3454,14 +3454,14 @@ case 'شغل': case 'play': case 'song': case 'تشغيل': {
  break
 
 
- case 'ytvd': {
+ case 'ytmp4': {
     if (isBan) return reply(mess.banned)	 			
  if (isBanChat) return reply(mess.bangc)
  Miku.sendMessage(from, {video:{url:args[0]}, mimetype:"video/mp4", caption:"اي خدمه يروحي🌚♥...",}, {quoted:m})
  }
  break
 
- case 'ytad': {
+ case 'ytmp3': {
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
  Miku.sendMessage(from, {audio:{url:args[0]}, mimetype:"audio/mp4", ptt:true}, {quoted:m})
