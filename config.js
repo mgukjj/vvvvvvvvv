@@ -7,13 +7,13 @@ global.autoReadAll = false
 global.antitags = true
 
 
-global.Owner = ['967771160204']
-global.OwnerNumber = ['967771160204']
-global.ownertag = ['967771160204']
-global.BotName = "❤️الامبراطور انوس ❤️"
-global.packname = "◤𝙀𝙈𝙋𝙀𝙍𝙊𝙍🦂𝘼𝙉𝙐𝙎◢"
-global.author = "★+967771160204 ★"
-global.OwnerName = "❤️الامبراطور انوس ❤️️"
+global.Owner = ['201098906252']
+global.OwnerNumber = ['201098906252']
+global.ownertag = ['201098906252']
+global.BotName = "❤️ ʙᴏТ ᴇʟɢᴀᴢᴀʀ ❤️"
+global.packname = "◤ʙᴏТ 🦂ᴇʟɢᴀᴢᴀʀ◢"
+global.author = "★201098906252 ★"
+global.OwnerName = "❤️ ᴇʟɢᴀᴢᴀʀ ᴀʟᴡᴀᴢᴇʀ ❤️️"
 global.BotSourceCode = "https://chat.whatsapp.com/JUngwIYTMVzCxMuismJuOY"
 global.SupportGroupLink = "https://chat.whatsapp.com/JUngwIYTMVzCxMuismJuOY"
 global.sessionName = "session"
@@ -25,7 +25,7 @@ global.prefa = ['.']
 
 global.location = "bihar, India"
 global.reactmoji = "🌺"
-global.themeemoji = "⚜️"
+global.themeemoji = "🤺"
 global.vidmenu = { url: 'https://c.tenor.com/YGuLegQWubwAAAPo/miku-nakano-gotoubun-no-hanayome.mp4' }
 global.websitex = "https://instagram.com/70o0o0da_12?igshid=YmMyMTA2M2Y="
 global.lolhuman = "KaysaS"
