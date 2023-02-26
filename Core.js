@@ -4988,7 +4988,7 @@ case '':
       mikupic ='https://telegra.ph/file/1592262447c5ce8714b60.jpg'
     
         
- const needhelpmenu = `👋. مرحبا بك   البداية الخاص بي هيا. *${prefix}*`
+ const needhelpmenu = `👋مرحبا بك في بوت الجزار لظهور قائمه الاوامر اكتب*${prefix}اوامر او اضغط علي القائمه بالاسفل❤✨*`
      
          let butRun = [
                 {buttonId: `.help`, buttonText: {displayText: 'القائمه✨'}, type: 1}
